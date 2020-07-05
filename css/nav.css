@@ -1,0 +1,28 @@
+nav{
+    display: table;
+    margin: 5px auto 5px auto;
+
+}
+
+nav li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+nav a{
+    color: black;
+    displaY: block;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: gray;
+
+}
+
+nav .is-current{
+    border-bottom: solid 1px black;
+}
+

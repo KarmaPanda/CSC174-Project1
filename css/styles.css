@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+body {
+    background-image: linear-gradient(to top, #f0d8e3 0%, #e3eeff 99%, #e3eeff 100%);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.container{
+    display: grid;
+    width: 65%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 120px 70px 70px 70px;
+}
+
+
+header{
+    background: #93c8ff;
+    width: 100%;
+    position: fixed;
+    border-bottom: 3px solid white;
+    z-index: 1;
+}
+
+footer{
+    text-align: center;
+    margin-top: 60px;
+}
+
+p{
+    line-height: 1.7em;
+    text-indent: 50px;
+    font-family: Georgia, serif;
+}
+
+h1{
+    padding: 20px 0 0px 0;
+    font-size: 36px;
+    font-family: 'Architects Daughter', cursive;
+}
+
+h2{
+    margin-top: 70px;
+    font-size: 30px;
+    font-family: 'Architects Daughter', cursive;
+}
+
+h3{
+    padding-top: 40px;
+}
+
+h4{
+    padding-top: 40px;
+}
+
+img{
+    border-radius: 15px;
+    width: 100%;
+    max-width: 340px;
+}
+
+img:hover{
+    filter: grayscale(100%);
+}
+
+.size{
+    width: 100%;
+    max-width: 250px;
+}
+
+.fig{
+    float: right;
+}
+
+.read{
+    margin-bottom: 70px;
+}
+
+a{
+    color: #747474;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+a:hover{
+    color: black;
+    transition: 0.5s;
+}
+
+.section{
+    padding-bottom: 50px;
+    border-top: 1px solid black;
+}
+
+section ul{
+    padding: 0;
+}
+
+section li{
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+.split{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 60px;
+}
+
+.image {
+    display: flex;
+    margin-right: 40px;
+    margin-top: 40px;
+}
+
+.jasonimg{
+    width: 100%;
+    max-width: 280px;
+}
+
+.text {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: 30px;
+}
