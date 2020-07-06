@@ -1,5 +1,5 @@
 <?php
-$customCSS="<link rel='stylesheet' type='text/css' href='css/2.css'>";
+$customCSS="";
 $customNav="";
 include "inc/html-top.php";
 ?>
@@ -10,27 +10,25 @@ include "inc/html-top.php";
 
 <div class="container">
     <main>
-        <article>
-            <div class="split">
-                <section>
-                    <h1>Desmond Lai</h1>
-
-                    <ul>
-                        <li>University of Rochester, 2022</li>
-                        <li>Computer Science</li>
-                    </ul>
-                </section>
-
-                <section class="image">
-                    <img src="images/desmond.jpg" alt="Desmond Lai">
-                    <h1 class="text">Lai Desmond</h1>
-                </section>
-            </div>
+        <div class="split">
             <section>
-                <h2>About Me</h2>
-                <p>I am a rising junior at the University of Rochester majoring in Computer Science (BA). I am from Staten Island, New York, which is one of the five boroughs of New York City. I started my passion for coding since high school where I learned C#, Java, and Python, and continued to learn more during college.</p>
+                <h2>Desmond Lai</h2>
+
+                <ul>
+                    <li>University of Rochester, 2022</li>
+                    <li>Computer Science</li>
+                </ul>
             </section>
-        </article>
+
+            <section class="image">
+                <img src="images/desmond.jpg" alt="Desmond Lai">
+                <h2 class="text">Lai Desmond</h2>
+            </section>
+        </div>
+        <section>
+            <h2>About Me</h2>
+            <p>I am a rising junior at the University of Rochester majoring in Computer Science (BA). I am from Staten Island, New York, which is one of the five boroughs of New York City. I started my passion for coding since high school where I learned C#, Java, and Python, and continued to learn more during college.</p>
+        </section>
 
         <article>
             <h2>Education</h2>
@@ -38,7 +36,6 @@ include "inc/html-top.php";
             <section>
                 <h3>High School</h3>
                 <p>As I am from Staten Island, New York, I graduated from Tottenville High School on June 2018. I have taken AP Computer Science A and AP Calculus BC here, which allowed me to skip several courses when I entered the University of Rochester.</p>
-
             </section>
 
             <section>
@@ -50,13 +47,10 @@ include "inc/html-top.php";
         <article>
             <h2>Computer Science</h2>
 
-
             <section>
                 <h3>Past Projects</h3>
                 <p>Back during High School, I participated in several hacakthons. Most notable of the hackathons were the CS4All Hackathon. This hackathon was elimination based, and as our team made it to the final round, we created a 3D Unity game where the player walks around a city to collect trash, otherwise they die from pollution. Press on the image above to be redirected to the game.</p>
                 <p>Aside from video game development, I have created other programs such as a MotionTracker, which can be found on my GitHub. This was part of a summer program at Carleton College in Northfield, Minnesota where I worked in a pair to utilize the OpenCV library with Python. We experimented with various Computer Vision techniques to create a surveillance system that tracks and records people's motion and faces.</p>
-
-
             </section>
 
             <section>
